@@ -8,4 +8,7 @@ setup(name='workingWithDataFrames',
       author_email='martin.maseda@gmail.com',
       packages=['workingWithDataFrames'],
       license="MIT",
-      zip_safe=False)
+      zip_safe=False,
+      install_requires=[
+          'pandas'
+      ])
