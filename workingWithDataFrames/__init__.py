@@ -8,8 +8,6 @@ __all__ = ['compareDataframes']
 __version__ = '0.1'
 __author__ = 'Ivan Martin Maseda'
 
-import os
-import sys
 import pandas as pd
 pd.set_option('display.width', 1000)
 import warnings
